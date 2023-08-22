@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
-import SearchForm from "./SearchForm";
-import TransactionList from "./TransactionList";
-import AddTransactionForm from "./AddTransactionForm";
+import SearchForm from "./components/SearchForm"
+import TransactionList from "./components/TransactionList";
+import AddTransactionForm from "./components/AddTransactionForm";
 
 
 
@@ -36,6 +36,7 @@ function App() {
  
 
   return (
+    
     <div className="main">
       <div className="container"> 
         <h2 className="page-title">Transaction History</h2>

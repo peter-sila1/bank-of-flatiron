@@ -1,4 +1,4 @@
-:root {
+/* :root {
   --border-p: 1px solid;
   --border-r : 8px;
   --dark-100: #171717;
@@ -273,4 +273,4 @@ code {
 
 .add-form input[type=date]:invalid::-webkit-datetime-edit {
   color: var(--gray-200);
-}
+} */
